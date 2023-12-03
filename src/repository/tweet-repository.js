@@ -4,7 +4,7 @@ import CrudRepository from "./crud-repository.js";
 class TweetRepository extends CrudRepository{
     constructor() {
         super(Tweet);
-    }
+    }   
 
     async create(data) {
         try {
